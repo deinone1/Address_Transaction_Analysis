@@ -1,0 +1,2321 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20221.22.0415.1144                               -->
+<workbook original-version='18.1' source-build='2022.1.1 (20221.22.0415.1144)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelExtractV2.true...ObjectModelExtractV2 />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+    <ZoneBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+    <color-palette custom='true' name='Siemens Primary Palette' type='regular'>
+      <color>#009999</color>
+      <color>#3c464b</color>
+      <color>#879baa</color>
+      <color>#becdd7</color>
+      <color>#73645a</color>
+      <color>#aaaa96</color>
+      <color>#d7d7cd</color>
+      <color>#ffffff</color>
+      <color>#00646e</color>
+      <color>#41aaaa</color>
+      <color>#005f87</color>
+      <color>#50bed7</color>
+      <color>#eb780a</color>
+      <color>#ffb900</color>
+      <color>#641946</color>
+      <color>#af235f</color>
+      <color>#647d2d</color>
+      <color>#aab414</color>
+    </color-palette>
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='user_data_final' inline='true' name='federated.02n98lz02y7uvd14kei091mw9xts' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='user_data_final' name='textscan.0wdg7w20w94dm914pym9z1vi18f1'>
+            <connection class='textscan' directory='C:/Users/z004ejty/OneDrive - Siemens AG/Рабочий стол/portfolio/applications/p2p/p2p_test_task/data' filename='user_data_final.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.0wdg7w20w94dm914pym9z1vi18f1' name='user_data_final.csv' table='[user_data_final#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='ru_RU' separator=','>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='string' name='Txhash' ordinal='1' />
+            <column datatype='integer' name='Blockno' ordinal='2' />
+            <column datatype='integer' name='UnixTimestamp' ordinal='3' />
+            <column datatype='datetime' name='DateTime' ordinal='4' />
+            <column datatype='string' name='From' ordinal='5' />
+            <column datatype='string' name='To' ordinal='6' />
+            <column datatype='string' name='ContractAddress' ordinal='7' />
+            <column datatype='real' name='Value_IN(ETH)' ordinal='8' />
+            <column datatype='real' name='Value_OUT(ETH)' ordinal='9' />
+            <column datatype='real' name='CurrentValue @ $1084.99/Eth' ordinal='10' />
+            <column datatype='real' name='TxnFee(ETH)' ordinal='11' />
+            <column datatype='real' name='TxnFee(USD)' ordinal='12' />
+            <column datatype='real' name='Historical $Price/Eth' ordinal='13' />
+            <column datatype='string' name='Method' ordinal='14' />
+            <column datatype='string' name='CurrentValue @ $1103.42/Eth' ordinal='15' />
+            <column datatype='string' name='error_code' ordinal='16' />
+            <column datatype='string' name='status' ordinal='17' />
+            <column datatype='real' name='Value_IN(USD)' ordinal='18' />
+            <column datatype='real' name='Value_OUT(USD)' ordinal='19' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.0wdg7w20w94dm914pym9z1vi18f1' name='user_data_final.csv' table='[user_data_final#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='ru_RU' separator=','>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='string' name='Txhash' ordinal='1' />
+            <column datatype='integer' name='Blockno' ordinal='2' />
+            <column datatype='integer' name='UnixTimestamp' ordinal='3' />
+            <column datatype='datetime' name='DateTime' ordinal='4' />
+            <column datatype='string' name='From' ordinal='5' />
+            <column datatype='string' name='To' ordinal='6' />
+            <column datatype='string' name='ContractAddress' ordinal='7' />
+            <column datatype='real' name='Value_IN(ETH)' ordinal='8' />
+            <column datatype='real' name='Value_OUT(ETH)' ordinal='9' />
+            <column datatype='real' name='CurrentValue @ $1084.99/Eth' ordinal='10' />
+            <column datatype='real' name='TxnFee(ETH)' ordinal='11' />
+            <column datatype='real' name='TxnFee(USD)' ordinal='12' />
+            <column datatype='real' name='Historical $Price/Eth' ordinal='13' />
+            <column datatype='string' name='Method' ordinal='14' />
+            <column datatype='string' name='CurrentValue @ $1103.42/Eth' ordinal='15' />
+            <column datatype='string' name='error_code' ordinal='16' />
+            <column datatype='string' name='status' ordinal='17' />
+            <column datatype='real' name='Value_IN(USD)' ordinal='18' />
+            <column datatype='real' name='Value_OUT(USD)' ordinal='19' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[user_data_final.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;ru&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;руб.&quot;</attribute>
+              <attribute datatype='string' name='decimal-char'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;ru_RU&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='thousands-char'>&quot; &quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[user_data_final.csv]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[user_data_final.csv_5E0B7821D9B840EBBC815BE0F4E99339]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Txhash</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Txhash]</local-name>
+            <parent-name>[user_data_final.csv]</parent-name>
+            <remote-alias>Txhash</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LRU_RRU' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[user_data_final.csv_5E0B7821D9B840EBBC815BE0F4E99339]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Blockno</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Blockno]</local-name>
+            <parent-name>[user_data_final.csv]</parent-name>
+            <remote-alias>Blockno</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[user_data_final.csv_5E0B7821D9B840EBBC815BE0F4E99339]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>UnixTimestamp</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[UnixTimestamp]</local-name>
+            <parent-name>[user_data_final.csv]</parent-name>
+            <remote-alias>UnixTimestamp</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[user_data_final.csv_5E0B7821D9B840EBBC815BE0F4E99339]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DateTime</remote-name>
+            <remote-type>135</remote-type>
+            <local-name>[DateTime]</local-name>
+            <parent-name>[user_data_final.csv]</parent-name>
+            <remote-alias>DateTime</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[user_data_final.csv_5E0B7821D9B840EBBC815BE0F4E99339]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>From</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[From]</local-name>
+            <parent-name>[user_data_final.csv]</parent-name>
+            <remote-alias>From</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LRU_RRU' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[user_data_final.csv_5E0B7821D9B840EBBC815BE0F4E99339]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>To</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[To]</local-name>
+            <parent-name>[user_data_final.csv]</parent-name>
+            <remote-alias>To</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LRU_RRU' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[user_data_final.csv_5E0B7821D9B840EBBC815BE0F4E99339]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ContractAddress</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ContractAddress]</local-name>
+            <parent-name>[user_data_final.csv]</parent-name>
+            <remote-alias>ContractAddress</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LRU_RRU' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[user_data_final.csv_5E0B7821D9B840EBBC815BE0F4E99339]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Value_IN(ETH)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Value_IN(ETH)]</local-name>
+            <parent-name>[user_data_final.csv]</parent-name>
+            <remote-alias>Value_IN(ETH)</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[user_data_final.csv_5E0B7821D9B840EBBC815BE0F4E99339]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Value_OUT(ETH)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Value_OUT(ETH)]</local-name>
+            <parent-name>[user_data_final.csv]</parent-name>
+            <remote-alias>Value_OUT(ETH)</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[user_data_final.csv_5E0B7821D9B840EBBC815BE0F4E99339]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CurrentValue @ $1084.99/Eth</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[CurrentValue @ $1084.99/Eth]</local-name>
+            <parent-name>[user_data_final.csv]</parent-name>
+            <remote-alias>CurrentValue @ $1084.99/Eth</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[user_data_final.csv_5E0B7821D9B840EBBC815BE0F4E99339]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TxnFee(ETH)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[TxnFee(ETH)]</local-name>
+            <parent-name>[user_data_final.csv]</parent-name>
+            <remote-alias>TxnFee(ETH)</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[user_data_final.csv_5E0B7821D9B840EBBC815BE0F4E99339]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TxnFee(USD)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[TxnFee(USD)]</local-name>
+            <parent-name>[user_data_final.csv]</parent-name>
+            <remote-alias>TxnFee(USD)</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[user_data_final.csv_5E0B7821D9B840EBBC815BE0F4E99339]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Historical $Price/Eth</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Historical $Price/Eth]</local-name>
+            <parent-name>[user_data_final.csv]</parent-name>
+            <remote-alias>Historical $Price/Eth</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[user_data_final.csv_5E0B7821D9B840EBBC815BE0F4E99339]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Method</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Method]</local-name>
+            <parent-name>[user_data_final.csv]</parent-name>
+            <remote-alias>Method</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LRU_RRU' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[user_data_final.csv_5E0B7821D9B840EBBC815BE0F4E99339]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CurrentValue @ $1103.42/Eth</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[CurrentValue @ $1103.42/Eth]</local-name>
+            <parent-name>[user_data_final.csv]</parent-name>
+            <remote-alias>CurrentValue @ $1103.42/Eth</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LRU_RRU' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[user_data_final.csv_5E0B7821D9B840EBBC815BE0F4E99339]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>error_code</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[error_code]</local-name>
+            <parent-name>[user_data_final.csv]</parent-name>
+            <remote-alias>error_code</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LRU_RRU' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[user_data_final.csv_5E0B7821D9B840EBBC815BE0F4E99339]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>status</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[status]</local-name>
+            <parent-name>[user_data_final.csv]</parent-name>
+            <remote-alias>status</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LRU_RRU' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[user_data_final.csv_5E0B7821D9B840EBBC815BE0F4E99339]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Value_IN(USD)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Value_IN(USD)]</local-name>
+            <parent-name>[user_data_final.csv]</parent-name>
+            <remote-alias>Value_IN(USD)</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[user_data_final.csv_5E0B7821D9B840EBBC815BE0F4E99339]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Value_OUT(USD)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Value_OUT(USD)]</local-name>
+            <parent-name>[user_data_final.csv]</parent-name>
+            <remote-alias>Value_OUT(USD)</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[user_data_final.csv_5E0B7821D9B840EBBC815BE0F4E99339]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column aggregation='Sum' datatype='integer' name='[Blockno]' role='dimension' type='ordinal' />
+      <column caption='Value_OUT(ETH)_negative' datatype='real' name='[Calculation_1615384937539596288]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='-[Value_OUT(ETH)]' />
+      </column>
+      <column caption='Value(ETH)' datatype='real' name='[Calculation_1615384937554288641]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[Value_IN(ETH)] + [Value_OUT(ETH)]' />
+      </column>
+      <column caption='method_biggest' datatype='string' name='[Calculation_1615384937555537923]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='if [Method] = &apos;Transfer&apos; THEN [Method]&#13;&#10;ELSEIF [Method] = &apos;Repay Behalf&apos; THEN [Method]&#13;&#10;ELSEIF [Method] = &apos;Deposit&apos; THEN [Method]&#13;&#10;ELSEIF [Method] = &apos;Mint&apos; THEN [Method]&#13;&#10;ELSEIF [Method] = &apos;Zap In&apos; THEN [Method]&#13;&#10;ELSEIF [Method] = &apos;Exchange&apos; THEN [Method]&#13;&#10;ELSE &apos;other&apos;&#13;&#10;END' />
+      </column>
+      <column caption='blank' datatype='string' name='[Calculation_2735373869926633472]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='&apos;&apos;' />
+      </column>
+      <column datatype='string' name='[Method]' role='dimension' type='nominal' />
+      <column datatype='real' name='[Value_IN(ETH)]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='user_data_final.csv' datatype='table' name='[__tableau_internal_object_id__].[user_data_final.csv_5E0B7821D9B840EBBC815BE0F4E99339]' role='measure' type='quantitative' />
+      <column-instance column='[Calculation_1615384937555537923]' derivation='None' name='[none:Calculation_1615384937555537923:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Method]' derivation='None' name='[none:Method:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Calculation_1615384937539596288]' derivation='Sum' name='[sum:Calculation_1615384937539596288:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Value_IN(ETH)]' derivation='Sum' name='[sum:Value_IN(ETH):qk]' pivot='key' type='quantitative' />
+      <group caption='Action (Method)' hidden='true' name='[Action (Method)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[Method]' />
+        </groupfilter>
+      </group>
+      <extract _.fcp.ObjectModelExtractV2.true...object-id='' count='-1' enabled='true' units='records'>
+        <connection access_mode='readonly' authentication='auth-none' author-locale='en_US' class='hyper' dbname='C:/Users/z004ejty/OneDrive - Siemens AG/Рабочий стол/portfolio/applications/p2p/p2p_test_task/dashboard/user_data_final.hyper' default-settings='yes' schema='Extract' sslmode='' tablename='Extract' update-time='06/17/2022 09:54:19 AM' username='tableau_internal_user'>
+          <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <refresh>
+            <refresh-event add-from-file-path='user_data_final' increment-value='%null%' refresh-type='create' rows-inserted='7913' timestamp-start='2022-06-17 09:54:17.305' />
+          </refresh>
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>F1</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[F1]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F1</remote-alias>
+              <ordinal>0</ordinal>
+              <family>user_data_final.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>3075</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[user_data_final.csv_5E0B7821D9B840EBBC815BE0F4E99339]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Txhash</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Txhash]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Txhash</remote-alias>
+              <ordinal>1</ordinal>
+              <family>user_data_final.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>7913</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LRU_RRU' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[user_data_final.csv_5E0B7821D9B840EBBC815BE0F4E99339]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Blockno</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Blockno]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Blockno</remote-alias>
+              <ordinal>2</ordinal>
+              <family>user_data_final.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>4632</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[user_data_final.csv_5E0B7821D9B840EBBC815BE0F4E99339]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>UnixTimestamp</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[UnixTimestamp]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>UnixTimestamp</remote-alias>
+              <ordinal>3</ordinal>
+              <family>user_data_final.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>4632</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[user_data_final.csv_5E0B7821D9B840EBBC815BE0F4E99339]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>DateTime</remote-name>
+              <remote-type>135</remote-type>
+              <local-name>[DateTime]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>DateTime</remote-alias>
+              <ordinal>4</ordinal>
+              <family>user_data_final.csv</family>
+              <local-type>datetime</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>4632</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[user_data_final.csv_5E0B7821D9B840EBBC815BE0F4E99339]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>From</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[From]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>From</remote-alias>
+              <ordinal>5</ordinal>
+              <family>user_data_final.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>17</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LRU_RRU' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[user_data_final.csv_5E0B7821D9B840EBBC815BE0F4E99339]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>To</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[To]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>To</remote-alias>
+              <ordinal>6</ordinal>
+              <family>user_data_final.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>398</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LRU_RRU' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[user_data_final.csv_5E0B7821D9B840EBBC815BE0F4E99339]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>ContractAddress</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[ContractAddress]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>ContractAddress</remote-alias>
+              <ordinal>7</ordinal>
+              <family>user_data_final.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LRU_RRU' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[user_data_final.csv_5E0B7821D9B840EBBC815BE0F4E99339]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Value_IN(ETH)</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Value_IN(ETH)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Value_IN(ETH)</remote-alias>
+              <ordinal>8</ordinal>
+              <family>user_data_final.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>176</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[user_data_final.csv_5E0B7821D9B840EBBC815BE0F4E99339]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Value_OUT(ETH)</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Value_OUT(ETH)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Value_OUT(ETH)</remote-alias>
+              <ordinal>9</ordinal>
+              <family>user_data_final.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>275</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[user_data_final.csv_5E0B7821D9B840EBBC815BE0F4E99339]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>CurrentValue @ $1084.99/Eth</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[CurrentValue @ $1084.99/Eth]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>CurrentValue @ $1084.99/Eth</remote-alias>
+              <ordinal>10</ordinal>
+              <family>user_data_final.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>264</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[user_data_final.csv_5E0B7821D9B840EBBC815BE0F4E99339]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>TxnFee(ETH)</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[TxnFee(ETH)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>TxnFee(ETH)</remote-alias>
+              <ordinal>11</ordinal>
+              <family>user_data_final.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>6423</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[user_data_final.csv_5E0B7821D9B840EBBC815BE0F4E99339]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>TxnFee(USD)</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[TxnFee(USD)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>TxnFee(USD)</remote-alias>
+              <ordinal>12</ordinal>
+              <family>user_data_final.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>6423</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[user_data_final.csv_5E0B7821D9B840EBBC815BE0F4E99339]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Historical $Price/Eth</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Historical $Price/Eth]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Historical $Price/Eth</remote-alias>
+              <ordinal>13</ordinal>
+              <family>user_data_final.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>672</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[user_data_final.csv_5E0B7821D9B840EBBC815BE0F4E99339]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Method</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Method]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Method</remote-alias>
+              <ordinal>14</ordinal>
+              <family>user_data_final.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>79</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LRU_RRU' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[user_data_final.csv_5E0B7821D9B840EBBC815BE0F4E99339]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>CurrentValue @ $1103.42/Eth</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[CurrentValue @ $1103.42/Eth]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>CurrentValue @ $1103.42/Eth</remote-alias>
+              <ordinal>15</ordinal>
+              <family>user_data_final.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>156</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LRU_RRU' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[user_data_final.csv_5E0B7821D9B840EBBC815BE0F4E99339]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>error_code</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[error_code]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>error_code</remote-alias>
+              <ordinal>16</ordinal>
+              <family>user_data_final.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>22</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LRU_RRU' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[user_data_final.csv_5E0B7821D9B840EBBC815BE0F4E99339]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>status</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[status]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>status</remote-alias>
+              <ordinal>17</ordinal>
+              <family>user_data_final.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LRU_RRU' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[user_data_final.csv_5E0B7821D9B840EBBC815BE0F4E99339]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Value_IN(USD)</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Value_IN(USD)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Value_IN(USD)</remote-alias>
+              <ordinal>18</ordinal>
+              <family>user_data_final.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>366</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[user_data_final.csv_5E0B7821D9B840EBBC815BE0F4E99339]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Value_OUT(USD)</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Value_OUT(USD)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Value_OUT(USD)</remote-alias>
+              <ordinal>19</ordinal>
+              <family>user_data_final.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>967</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[user_data_final.csv_5E0B7821D9B840EBBC815BE0F4E99339]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Method:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;Burn&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Easy Zap Out&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Mint Then Deposit&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Sell To Uniswap&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Unoswap&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>%null%</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Deposit&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Increase_unlock_time&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Remove_liquidity_imbalance&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Swap Exact Tokens For ETH Supporting Fee On Transfer Tokens&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Zap Out&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Add_liquidity&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Deposit ETH&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Leave&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Repay Borrow&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Transfer&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Claim Reward&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Exchange_underlying&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Redeem&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Set User Use Reserve As Collateral&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Vote_for_gauge_weights&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Claim&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Enter&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Mint_many&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Sell Token For Eth To Uniswap V3&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Unstake&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Approve&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Deposit Ether For&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Migrate&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Retrieve Signer Pubkey&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Transfer And Call&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Create_lock&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Get Reward&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Remove Liquidity One Coin Then Burn&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Swap Exact ETH For Tokens&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Withdraw ETH&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Add Liquidity&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Deposit All&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Init Swap Kimchi To Godkimchi&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Remove_liquidity_one_coin&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Swap Exact Tokens For Tokens&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Cook&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Exit_target Repayment&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Remove Liquidity ETH&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Swap ETH For Exact Tokens&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Withdraw All Quote&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Borrow&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Deposit For&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Mint&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Sell Base Token&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Transfer Tokens&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Claim Rewards&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Execute&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Redeem Idle Token&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Stake&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Withdraw&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Claim_rewards&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Exit&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Redeem Underlying&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Submit&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Withdraw All&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Create Deposit&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Exitswap Pool Amount In&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Remove Liquidity Imbalance Then Burn&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Swap Exact Amount In&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Withdraw And Unwrap&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Delegate&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Increase_amount&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Remove_liquidity&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Swap Exact Tokens For ETH&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Zap In&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Claim All&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Enter Markets&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Pay Joining Fee&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Sell Token For Token To Uniswap V3&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;User_checkpoint&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Build&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Deposit Quote&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Mint Idle Token&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Sell To Liquidity Provider&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Unlock&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Add Liquidity ETH&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Deposit Base&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Join&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Repay&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Swap Then Burn&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Complete Transfer&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Exit Pool&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Remove Liquidity&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Swap&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Withdraw All Base&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Claim Comp&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Exchange&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Provide BTC Funding Proof&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Set Master Contract Approval&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Vote&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Add Liquidity Two Sides Optimal&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Deposit ERC20For User&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Join Pool&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Repay Behalf&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Tdt To Tbtc&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Calculation_1615384937555537923:nk]' palette='Siemens Primary Palette' type='palette'>
+            <map to='#009999'>
+              <bucket>&quot;Deposit&quot;</bucket>
+            </map>
+            <map to='#3c464b'>
+              <bucket>&quot;Zap In&quot;</bucket>
+            </map>
+            <map to='#50bed7'>
+              <bucket>&quot;Transfer&quot;</bucket>
+            </map>
+            <map to='#647d2d'>
+              <bucket>&quot;Mint&quot;</bucket>
+            </map>
+            <map to='#73645a'>
+              <bucket>&quot;Exchange&quot;</bucket>
+            </map>
+            <map to='#af235f'>
+              <bucket>&quot;Repay Behalf&quot;</bucket>
+            </map>
+            <map to='#becdd7'>
+              <bucket>&quot;other&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.02n98lz02y7uvd14kei091mw9xts].[sum:Value_IN(ETH):qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.02n98lz02y7uvd14kei091mw9xts].[sum:Calculation_1615384937539596288:qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Russia&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <default-sorts>
+        <manual-sort column='[none:Method:nk]' direction='ASC'>
+          <dictionary>
+            <bucket>&quot;Transfer&quot;</bucket>
+            <bucket>&quot;Repay Behalf&quot;</bucket>
+            <bucket>&quot;Deposit&quot;</bucket>
+            <bucket>&quot;Mint&quot;</bucket>
+            <bucket>&quot;Zap In&quot;</bucket>
+            <bucket>&quot;Exchange&quot;</bucket>
+            <bucket>%null%</bucket>
+            <bucket>&quot;Add Liquidity&quot;</bucket>
+            <bucket>&quot;Add Liquidity ETH&quot;</bucket>
+            <bucket>&quot;Add Liquidity Two Sides Optimal&quot;</bucket>
+            <bucket>&quot;Add_liquidity&quot;</bucket>
+            <bucket>&quot;Approve&quot;</bucket>
+            <bucket>&quot;Borrow&quot;</bucket>
+            <bucket>&quot;Build&quot;</bucket>
+            <bucket>&quot;Burn&quot;</bucket>
+            <bucket>&quot;Claim&quot;</bucket>
+            <bucket>&quot;Claim All&quot;</bucket>
+            <bucket>&quot;Claim Comp&quot;</bucket>
+            <bucket>&quot;Claim Reward&quot;</bucket>
+            <bucket>&quot;Claim Rewards&quot;</bucket>
+            <bucket>&quot;Claim_rewards&quot;</bucket>
+            <bucket>&quot;Complete Transfer&quot;</bucket>
+            <bucket>&quot;Cook&quot;</bucket>
+            <bucket>&quot;Create Deposit&quot;</bucket>
+            <bucket>&quot;Create_lock&quot;</bucket>
+            <bucket>&quot;Delegate&quot;</bucket>
+            <bucket>&quot;Deposit All&quot;</bucket>
+            <bucket>&quot;Deposit Base&quot;</bucket>
+            <bucket>&quot;Deposit ERC20For User&quot;</bucket>
+            <bucket>&quot;Deposit ETH&quot;</bucket>
+            <bucket>&quot;Deposit Ether For&quot;</bucket>
+            <bucket>&quot;Deposit For&quot;</bucket>
+            <bucket>&quot;Deposit Quote&quot;</bucket>
+            <bucket>&quot;Easy Zap Out&quot;</bucket>
+            <bucket>&quot;Enter&quot;</bucket>
+            <bucket>&quot;Enter Markets&quot;</bucket>
+            <bucket>&quot;Exchange_underlying&quot;</bucket>
+            <bucket>&quot;Execute&quot;</bucket>
+            <bucket>&quot;Exit&quot;</bucket>
+            <bucket>&quot;Exit Pool&quot;</bucket>
+            <bucket>&quot;Exit_target Repayment&quot;</bucket>
+            <bucket>&quot;Exitswap Pool Amount In&quot;</bucket>
+            <bucket>&quot;Get Reward&quot;</bucket>
+            <bucket>&quot;Increase_amount&quot;</bucket>
+            <bucket>&quot;Increase_unlock_time&quot;</bucket>
+            <bucket>&quot;Init Swap Kimchi To Godkimchi&quot;</bucket>
+            <bucket>&quot;Join&quot;</bucket>
+            <bucket>&quot;Join Pool&quot;</bucket>
+            <bucket>&quot;Leave&quot;</bucket>
+            <bucket>&quot;Migrate&quot;</bucket>
+            <bucket>&quot;Mint Idle Token&quot;</bucket>
+            <bucket>&quot;Mint Then Deposit&quot;</bucket>
+            <bucket>&quot;Mint_many&quot;</bucket>
+            <bucket>&quot;Pay Joining Fee&quot;</bucket>
+            <bucket>&quot;Provide BTC Funding Proof&quot;</bucket>
+            <bucket>&quot;Redeem&quot;</bucket>
+            <bucket>&quot;Redeem Idle Token&quot;</bucket>
+            <bucket>&quot;Redeem Underlying&quot;</bucket>
+            <bucket>&quot;Remove Liquidity&quot;</bucket>
+            <bucket>&quot;Remove Liquidity ETH&quot;</bucket>
+            <bucket>&quot;Remove Liquidity Imbalance Then Burn&quot;</bucket>
+            <bucket>&quot;Remove Liquidity One Coin Then Burn&quot;</bucket>
+            <bucket>&quot;Remove_liquidity&quot;</bucket>
+            <bucket>&quot;Remove_liquidity_imbalance&quot;</bucket>
+            <bucket>&quot;Remove_liquidity_one_coin&quot;</bucket>
+            <bucket>&quot;Repay&quot;</bucket>
+            <bucket>&quot;Repay Borrow&quot;</bucket>
+            <bucket>&quot;Retrieve Signer Pubkey&quot;</bucket>
+            <bucket>&quot;Sell Base Token&quot;</bucket>
+            <bucket>&quot;Sell To Liquidity Provider&quot;</bucket>
+            <bucket>&quot;Sell To Uniswap&quot;</bucket>
+            <bucket>&quot;Sell Token For Eth To Uniswap V3&quot;</bucket>
+            <bucket>&quot;Sell Token For Token To Uniswap V3&quot;</bucket>
+            <bucket>&quot;Set Master Contract Approval&quot;</bucket>
+            <bucket>&quot;Set User Use Reserve As Collateral&quot;</bucket>
+            <bucket>&quot;Stake&quot;</bucket>
+            <bucket>&quot;Submit&quot;</bucket>
+            <bucket>&quot;Swap&quot;</bucket>
+            <bucket>&quot;Swap ETH For Exact Tokens&quot;</bucket>
+            <bucket>&quot;Swap Exact Amount In&quot;</bucket>
+            <bucket>&quot;Swap Exact ETH For Tokens&quot;</bucket>
+            <bucket>&quot;Swap Exact Tokens For ETH&quot;</bucket>
+            <bucket>&quot;Swap Exact Tokens For ETH Supporting Fee On Transfer Tokens&quot;</bucket>
+            <bucket>&quot;Swap Exact Tokens For Tokens&quot;</bucket>
+            <bucket>&quot;Swap Then Burn&quot;</bucket>
+            <bucket>&quot;Tdt To Tbtc&quot;</bucket>
+            <bucket>&quot;Transfer And Call&quot;</bucket>
+            <bucket>&quot;Transfer Tokens&quot;</bucket>
+            <bucket>&quot;Unlock&quot;</bucket>
+            <bucket>&quot;Unoswap&quot;</bucket>
+            <bucket>&quot;Unstake&quot;</bucket>
+            <bucket>&quot;User_checkpoint&quot;</bucket>
+            <bucket>&quot;Vote&quot;</bucket>
+            <bucket>&quot;Vote_for_gauge_weights&quot;</bucket>
+            <bucket>&quot;Withdraw&quot;</bucket>
+            <bucket>&quot;Withdraw All&quot;</bucket>
+            <bucket>&quot;Withdraw All Base&quot;</bucket>
+            <bucket>&quot;Withdraw All Quote&quot;</bucket>
+            <bucket>&quot;Withdraw And Unwrap&quot;</bucket>
+            <bucket>&quot;Withdraw ETH&quot;</bucket>
+            <bucket>&quot;Zap Out&quot;</bucket>
+          </dictionary>
+        </manual-sort>
+      </default-sorts>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='user_data_final.csv' id='user_data_final.csv_5E0B7821D9B840EBBC815BE0F4E99339'>
+            <properties context=''>
+              <relation connection='textscan.0wdg7w20w94dm914pym9z1vi18f1' name='user_data_final.csv' table='[user_data_final#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='ru_RU' separator=','>
+                  <column datatype='integer' name='F1' ordinal='0' />
+                  <column datatype='string' name='Txhash' ordinal='1' />
+                  <column datatype='integer' name='Blockno' ordinal='2' />
+                  <column datatype='integer' name='UnixTimestamp' ordinal='3' />
+                  <column datatype='datetime' name='DateTime' ordinal='4' />
+                  <column datatype='string' name='From' ordinal='5' />
+                  <column datatype='string' name='To' ordinal='6' />
+                  <column datatype='string' name='ContractAddress' ordinal='7' />
+                  <column datatype='real' name='Value_IN(ETH)' ordinal='8' />
+                  <column datatype='real' name='Value_OUT(ETH)' ordinal='9' />
+                  <column datatype='real' name='CurrentValue @ $1084.99/Eth' ordinal='10' />
+                  <column datatype='real' name='TxnFee(ETH)' ordinal='11' />
+                  <column datatype='real' name='TxnFee(USD)' ordinal='12' />
+                  <column datatype='real' name='Historical $Price/Eth' ordinal='13' />
+                  <column datatype='string' name='Method' ordinal='14' />
+                  <column datatype='string' name='CurrentValue @ $1103.42/Eth' ordinal='15' />
+                  <column datatype='string' name='error_code' ordinal='16' />
+                  <column datatype='string' name='status' ordinal='17' />
+                  <column datatype='real' name='Value_IN(USD)' ordinal='18' />
+                  <column datatype='real' name='Value_OUT(USD)' ordinal='19' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <actions>
+    <action caption='Filter1' name='[Action1_4F0A96B0656A49B2BE46EC4EBCD2ADC1]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Address Analytics' type='sheet' worksheet='Methods' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Address Analytics' />
+      </command>
+    </action>
+  </actions>
+  <worksheets>
+    <worksheet name='Cashflow_Dynamics'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='user_data_final' name='federated.02n98lz02y7uvd14kei091mw9xts' />
+          </datasources>
+          <datasource-dependencies datasource='federated.02n98lz02y7uvd14kei091mw9xts'>
+            <column aggregation='Sum' datatype='integer' name='[Blockno]' role='dimension' type='ordinal' />
+            <column caption='Value_OUT(ETH)_negative' datatype='real' name='[Calculation_1615384937539596288]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='-[Value_OUT(ETH)]' />
+            </column>
+            <column datatype='datetime' name='[DateTime]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[From]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Method]' role='dimension' type='nominal' />
+            <column datatype='string' name='[To]' role='dimension' type='nominal' />
+            <column datatype='real' name='[Value_IN(ETH)]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Value_OUT(ETH)]' role='measure' type='quantitative' />
+            <column-instance column='[DateTime]' derivation='Month' name='[mn:DateTime:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Blockno]' derivation='None' name='[none:Blockno:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[From]' derivation='None' name='[none:From:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Method]' derivation='None' name='[none:Method:nk]' pivot='key' type='nominal' />
+            <column-instance column='[To]' derivation='None' name='[none:To:nk]' pivot='key' type='nominal' />
+            <column-instance column='[status]' derivation='None' name='[none:status:nk]' pivot='key' type='nominal' />
+            <column datatype='string' name='[status]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_1615384937539596288]' derivation='Sum' name='[sum:Calculation_1615384937539596288:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Value_IN(ETH)]' derivation='Sum' name='[sum:Value_IN(ETH):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[DateTime]' derivation='Year' name='[yr:DateTime:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.02n98lz02y7uvd14kei091mw9xts].[Action (Method)]'>
+            <groupfilter function='level-members' level='[Method]' user:ui-action-filter='[Action1_4F0A96B0656A49B2BE46EC4EBCD2ADC1]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.02n98lz02y7uvd14kei091mw9xts].[mn:DateTime:ok]'>
+            <groupfilter function='level-members' level='[mn:DateTime:ok]' />
+          </filter>
+          <filter class='categorical' column='[federated.02n98lz02y7uvd14kei091mw9xts].[none:Blockno:ok]'>
+            <groupfilter function='level-members' level='[none:Blockno:ok]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.02n98lz02y7uvd14kei091mw9xts].[none:From:nk]'>
+            <groupfilter function='level-members' level='[none:From:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.02n98lz02y7uvd14kei091mw9xts].[none:Method:nk]'>
+            <groupfilter function='level-members' level='[none:Method:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.02n98lz02y7uvd14kei091mw9xts].[none:To:nk]'>
+            <groupfilter function='level-members' level='[none:To:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.02n98lz02y7uvd14kei091mw9xts].[none:status:nk]'>
+            <groupfilter function='member' level='[none:status:nk]' member='%null%' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.02n98lz02y7uvd14kei091mw9xts].[yr:DateTime:ok]'>
+            <groupfilter function='level-members' level='[yr:DateTime:ok]' />
+          </filter>
+          <slices>
+            <column>[federated.02n98lz02y7uvd14kei091mw9xts].[yr:DateTime:ok]</column>
+            <column>[federated.02n98lz02y7uvd14kei091mw9xts].[mn:DateTime:ok]</column>
+            <column>[federated.02n98lz02y7uvd14kei091mw9xts].[none:Method:nk]</column>
+            <column>[federated.02n98lz02y7uvd14kei091mw9xts].[none:status:nk]</column>
+            <column>[federated.02n98lz02y7uvd14kei091mw9xts].[none:To:nk]</column>
+            <column>[federated.02n98lz02y7uvd14kei091mw9xts].[none:From:nk]</column>
+            <column>[federated.02n98lz02y7uvd14kei091mw9xts].[none:Blockno:ok]</column>
+            <column>[federated.02n98lz02y7uvd14kei091mw9xts].[Action (Method)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.02n98lz02y7uvd14kei091mw9xts].[sum:Calculation_1615384937539596288:qk]' field-type='quantitative' fold='true' scope='rows' synchronized='true' type='space' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.02n98lz02y7uvd14kei091mw9xts].[:Measure Names]' />
+            </encodings>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.02n98lz02y7uvd14kei091mw9xts].[sum:Value_IN(ETH):qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.02n98lz02y7uvd14kei091mw9xts].[:Measure Names]' />
+            </encodings>
+          </pane>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.02n98lz02y7uvd14kei091mw9xts].[sum:Calculation_1615384937539596288:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.02n98lz02y7uvd14kei091mw9xts].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#e15759' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.02n98lz02y7uvd14kei091mw9xts].[sum:Value_IN(ETH):qk] + [federated.02n98lz02y7uvd14kei091mw9xts].[sum:Calculation_1615384937539596288:qk])</rows>
+        <cols>([federated.02n98lz02y7uvd14kei091mw9xts].[yr:DateTime:ok] / [federated.02n98lz02y7uvd14kei091mw9xts].[mn:DateTime:ok])</cols>
+      </table>
+      <simple-id uuid='{C8D146FD-7B87-44CA-B8D1-8E1FF14BC093}' />
+    </worksheet>
+    <worksheet name='Cashflow_Dynamics_methods'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='user_data_final' name='federated.02n98lz02y7uvd14kei091mw9xts' />
+          </datasources>
+          <datasource-dependencies datasource='federated.02n98lz02y7uvd14kei091mw9xts'>
+            <column caption='Value_OUT(ETH)_negative' datatype='real' name='[Calculation_1615384937539596288]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='-[Value_OUT(ETH)]' />
+            </column>
+            <column caption='method_biggest' datatype='string' name='[Calculation_1615384937555537923]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='if [Method] = &apos;Transfer&apos; THEN [Method]&#13;&#10;ELSEIF [Method] = &apos;Repay Behalf&apos; THEN [Method]&#13;&#10;ELSEIF [Method] = &apos;Deposit&apos; THEN [Method]&#13;&#10;ELSEIF [Method] = &apos;Mint&apos; THEN [Method]&#13;&#10;ELSEIF [Method] = &apos;Zap In&apos; THEN [Method]&#13;&#10;ELSEIF [Method] = &apos;Exchange&apos; THEN [Method]&#13;&#10;ELSE &apos;other&apos;&#13;&#10;END' />
+            </column>
+            <column datatype='datetime' name='[DateTime]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[Method]' role='dimension' type='nominal' />
+            <column datatype='real' name='[Value_IN(ETH)]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Value_OUT(ETH)]' role='measure' type='quantitative' />
+            <column-instance column='[DateTime]' derivation='Month' name='[mn:DateTime:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Calculation_1615384937555537923]' derivation='None' name='[none:Calculation_1615384937555537923:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Method]' derivation='None' name='[none:Method:nk]' pivot='key' type='nominal' />
+            <column-instance column='[status]' derivation='None' name='[none:status:nk]' pivot='key' type='nominal' />
+            <column datatype='string' name='[status]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_1615384937539596288]' derivation='Sum' name='[sum:Calculation_1615384937539596288:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Value_IN(ETH)]' derivation='Sum' name='[sum:Value_IN(ETH):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[DateTime]' derivation='Year' name='[yr:DateTime:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.02n98lz02y7uvd14kei091mw9xts].[mn:DateTime:ok]'>
+            <groupfilter function='level-members' level='[mn:DateTime:ok]' />
+          </filter>
+          <filter class='categorical' column='[federated.02n98lz02y7uvd14kei091mw9xts].[none:Method:nk]'>
+            <groupfilter function='level-members' level='[none:Method:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.02n98lz02y7uvd14kei091mw9xts].[none:status:nk]'>
+            <groupfilter function='member' level='[none:status:nk]' member='%null%' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.02n98lz02y7uvd14kei091mw9xts].[yr:DateTime:ok]'>
+            <groupfilter function='level-members' level='[yr:DateTime:ok]' />
+          </filter>
+          <slices>
+            <column>[federated.02n98lz02y7uvd14kei091mw9xts].[yr:DateTime:ok]</column>
+            <column>[federated.02n98lz02y7uvd14kei091mw9xts].[mn:DateTime:ok]</column>
+            <column>[federated.02n98lz02y7uvd14kei091mw9xts].[none:Method:nk]</column>
+            <column>[federated.02n98lz02y7uvd14kei091mw9xts].[none:status:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.02n98lz02y7uvd14kei091mw9xts].[sum:Calculation_1615384937539596288:qk]' field-type='quantitative' fold='true' scope='rows' synchronized='true' type='space' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.02n98lz02y7uvd14kei091mw9xts].[none:Calculation_1615384937555537923:nk]' />
+            </encodings>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.02n98lz02y7uvd14kei091mw9xts].[sum:Value_IN(ETH):qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.02n98lz02y7uvd14kei091mw9xts].[none:Calculation_1615384937555537923:nk]' />
+            </encodings>
+          </pane>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.02n98lz02y7uvd14kei091mw9xts].[sum:Calculation_1615384937539596288:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.02n98lz02y7uvd14kei091mw9xts].[none:Calculation_1615384937555537923:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#e15759' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.02n98lz02y7uvd14kei091mw9xts].[sum:Value_IN(ETH):qk] + [federated.02n98lz02y7uvd14kei091mw9xts].[sum:Calculation_1615384937539596288:qk])</rows>
+        <cols>([federated.02n98lz02y7uvd14kei091mw9xts].[yr:DateTime:ok] / [federated.02n98lz02y7uvd14kei091mw9xts].[mn:DateTime:ok])</cols>
+      </table>
+      <simple-id uuid='{6058648A-0F5B-4E66-8954-B95C980CAECB}' />
+    </worksheet>
+    <worksheet name='Methods'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='user_data_final' name='federated.02n98lz02y7uvd14kei091mw9xts' />
+          </datasources>
+          <datasource-dependencies datasource='federated.02n98lz02y7uvd14kei091mw9xts'>
+            <column caption='Value(ETH)' datatype='real' name='[Calculation_1615384937554288641]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[Value_IN(ETH)] + [Value_OUT(ETH)]' />
+            </column>
+            <column datatype='string' name='[Method]' role='dimension' type='nominal' />
+            <column datatype='real' name='[Value_IN(ETH)]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Value_OUT(ETH)]' role='measure' type='quantitative' />
+            <column-instance column='[Method]' derivation='None' name='[none:Method:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_1615384937554288641]' derivation='Sum' name='[sum:Calculation_1615384937554288641:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.02n98lz02y7uvd14kei091mw9xts].[none:Method:nk]'>
+            <groupfilter function='level-members' level='[none:Method:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <computed-sort column='[federated.02n98lz02y7uvd14kei091mw9xts].[none:Method:nk]' direction='DESC' using='[federated.02n98lz02y7uvd14kei091mw9xts].[sum:Calculation_1615384937554288641:qk]' />
+          <slices>
+            <column>[federated.02n98lz02y7uvd14kei091mw9xts].[none:Method:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <color column='[federated.02n98lz02y7uvd14kei091mw9xts].[sum:Calculation_1615384937554288641:qk]' />
+              <size column='[federated.02n98lz02y7uvd14kei091mw9xts].[sum:Calculation_1615384937554288641:qk]' />
+              <text column='[federated.02n98lz02y7uvd14kei091mw9xts].[none:Method:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{BBFD70C2-EEEF-4BAE-8A38-7BCBEB96CB19}' />
+    </worksheet>
+    <worksheet name='Transactions'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='user_data_final' name='federated.02n98lz02y7uvd14kei091mw9xts' />
+          </datasources>
+          <datasource-dependencies datasource='federated.02n98lz02y7uvd14kei091mw9xts'>
+            <column caption='Value(ETH)' datatype='real' name='[Calculation_1615384937554288641]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[Value_IN(ETH)] + [Value_OUT(ETH)]' />
+            </column>
+            <column caption='blank' datatype='string' name='[Calculation_2735373869926633472]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='&apos;&apos;' />
+            </column>
+            <column datatype='datetime' name='[DateTime]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[From]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Method]' role='dimension' type='nominal' />
+            <column datatype='string' name='[To]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Txhash]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[UnixTimestamp]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Value_IN(ETH)]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Value_OUT(ETH)]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_2735373869926633472]' derivation='None' name='[none:Calculation_2735373869926633472:nk]' pivot='key' type='nominal' />
+            <column-instance column='[DateTime]' derivation='None' name='[none:DateTime:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[From]' derivation='None' name='[none:From:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Method]' derivation='None' name='[none:Method:nk]' pivot='key' type='nominal' />
+            <column-instance column='[To]' derivation='None' name='[none:To:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Txhash]' derivation='None' name='[none:Txhash:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_1615384937554288641]' derivation='Sum' name='[sum:Calculation_1615384937554288641:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[UnixTimestamp]' derivation='Sum' name='[sum:UnixTimestamp:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.02n98lz02y7uvd14kei091mw9xts].[Action (Method)]'>
+            <groupfilter function='level-members' level='[Method]' user:ui-action-filter='[Action1_4F0A96B0656A49B2BE46EC4EBCD2ADC1]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <computed-sort column='[federated.02n98lz02y7uvd14kei091mw9xts].[none:Txhash:nk]' direction='DESC' using='[federated.02n98lz02y7uvd14kei091mw9xts].[sum:UnixTimestamp:qk]' />
+          <slices>
+            <column>[federated.02n98lz02y7uvd14kei091mw9xts].[Action (Method)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' value='7' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='width' field='[federated.02n98lz02y7uvd14kei091mw9xts].[none:Txhash:nk]' value='120' />
+            <format attr='width' field='[federated.02n98lz02y7uvd14kei091mw9xts].[none:From:nk]' value='104' />
+            <format attr='width' field='[federated.02n98lz02y7uvd14kei091mw9xts].[none:To:nk]' value='100' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.02n98lz02y7uvd14kei091mw9xts].[none:Calculation_2735373869926633472:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.02n98lz02y7uvd14kei091mw9xts].[none:Txhash:nk] / ([federated.02n98lz02y7uvd14kei091mw9xts].[none:From:nk] / ([federated.02n98lz02y7uvd14kei091mw9xts].[none:To:nk] / ([federated.02n98lz02y7uvd14kei091mw9xts].[none:Method:nk] / ([federated.02n98lz02y7uvd14kei091mw9xts].[none:DateTime:ok] / [federated.02n98lz02y7uvd14kei091mw9xts].[sum:Calculation_1615384937554288641:ok])))))</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{A0365B63-E604-4F1F-A8F7-BC22AF8E99D2}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Address Analytics'>
+      <style>
+        <style-rule element='table'>
+          <format attr='background-color' value='#e6e6e6' />
+        </style-rule>
+      </style>
+      <size sizing-mode='automatic' />
+      <datasources>
+        <datasource caption='user_data_final' name='federated.02n98lz02y7uvd14kei091mw9xts' />
+      </datasources>
+      <datasource-dependencies datasource='federated.02n98lz02y7uvd14kei091mw9xts'>
+        <column aggregation='Sum' datatype='integer' name='[Blockno]' role='dimension' type='ordinal' />
+        <column datatype='datetime' name='[DateTime]' role='dimension' type='ordinal' />
+        <column datatype='string' name='[From]' role='dimension' type='nominal' />
+        <column datatype='string' name='[Method]' role='dimension' type='nominal' />
+        <column datatype='string' name='[To]' role='dimension' type='nominal' />
+        <column-instance column='[DateTime]' derivation='Month' name='[mn:DateTime:ok]' pivot='key' type='ordinal' />
+        <column-instance column='[Blockno]' derivation='None' name='[none:Blockno:ok]' pivot='key' type='ordinal' />
+        <column-instance column='[From]' derivation='None' name='[none:From:nk]' pivot='key' type='nominal' />
+        <column-instance column='[Method]' derivation='None' name='[none:Method:nk]' pivot='key' type='nominal' />
+        <column-instance column='[To]' derivation='None' name='[none:To:nk]' pivot='key' type='nominal' />
+        <column-instance column='[status]' derivation='None' name='[none:status:nk]' pivot='key' type='nominal' />
+        <column datatype='string' name='[status]' role='dimension' type='nominal' />
+        <column-instance column='[DateTime]' derivation='Year' name='[yr:DateTime:ok]' pivot='key' type='ordinal' />
+      </datasource-dependencies>
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98250' id='14' param='vert' type-v2='layout-flow' w='99050' x='475' y='875'>
+            <zone h='4595' id='15' type-v2='title' w='99050' x='475' y='875'>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+            <zone h='7221' id='17' param='horz' type-v2='layout-flow' w='99050' x='475' y='5470'>
+              <zone h='7221' id='11' name='Cashflow_Dynamics' pane-specification-id='2' param='[federated.02n98lz02y7uvd14kei091mw9xts].[:Measure Names]' type-v2='color' w='11045' x='475' y='5470'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='7221' id='16' mode='checkdropdown' name='Cashflow_Dynamics' param='[federated.02n98lz02y7uvd14kei091mw9xts].[yr:DateTime:ok]' type-v2='filter' values='database' w='9976' x='11520' y='5470'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='7221' id='18' mode='checkdropdown' name='Cashflow_Dynamics' param='[federated.02n98lz02y7uvd14kei091mw9xts].[mn:DateTime:ok]' type-v2='filter' values='database' w='9976' x='21496' y='5470'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='7221' id='22' mode='checkdropdown' name='Cashflow_Dynamics' param='[federated.02n98lz02y7uvd14kei091mw9xts].[none:Method:nk]' type-v2='filter' values='database' w='9976' x='31472' y='5470'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='7221' id='24' mode='checkdropdown' name='Cashflow_Dynamics' param='[federated.02n98lz02y7uvd14kei091mw9xts].[none:status:nk]' type-v2='filter' values='database' w='9976' x='41448' y='5470'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='7221' id='21' mode='checkdropdown' name='Cashflow_Dynamics' param='[federated.02n98lz02y7uvd14kei091mw9xts].[none:From:nk]' type-v2='filter' values='database' w='9976' x='51424' y='5470'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='7221' id='23' mode='checkdropdown' name='Cashflow_Dynamics' param='[federated.02n98lz02y7uvd14kei091mw9xts].[none:To:nk]' type-v2='filter' values='database' w='9976' x='61400' y='5470'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='7221' id='25' mode='checkdropdown' name='Cashflow_Dynamics' param='[federated.02n98lz02y7uvd14kei091mw9xts].[none:Blockno:ok]' type-v2='filter' values='database' w='9976' x='71376' y='5470'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='background-color' value='#ffffff' />
+              </zone-style>
+            </zone>
+            <zone h='86434' id='12' type-v2='layout-basic' w='99050' x='475' y='12691'>
+              <zone h='86434' id='30' is-fixed='true' type-v2='layout-basic' w='99050' x='475' y='12691'>
+                <zone h='86434' id='9' param='horz' type-v2='layout-flow' w='60026' x='475' y='12691'>
+                  <zone h='86434' id='10' name='Cashflow_Dynamics' w='60026' x='475' y='12691'>
+                    <layout-cache cell-count-w='23' minheight='264' non-cell-size-w='141' type-h='scalable' type-w='cell' />
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                      <format attr='background-color' value='#ffffff' />
+                    </zone-style>
+                  </zone>
+                </zone>
+                <zone h='86434' id='31' param='horz' type-v2='layout-flow' w='39024' x='60501' y='12691'>
+                  <zone fixed-size='617' h='86434' id='28' is-fixed='true' param='vert' type-v2='layout-flow' w='39024' x='60501' y='12691'>
+                    <zone fixed-size='380' h='42450' id='26' is-fixed='true' name='Methods' w='39024' x='60501' y='12691'>
+                      <layout-cache cell-count-w='1' type-h='cell' type-w='cell' />
+                      <zone-style>
+                        <format attr='border-color' value='#000000' />
+                        <format attr='border-style' value='none' />
+                        <format attr='border-width' value='0' />
+                        <format attr='margin' value='4' />
+                        <format attr='background-color' value='#ffffff' />
+                      </zone-style>
+                    </zone>
+                    <zone h='43984' id='29' name='Transactions' w='39024' x='60501' y='55141'>
+                      <layout-cache cell-count-w='1' fixed-size-h='158324' non-cell-size-w='602' type-h='fixed' type-w='cell' />
+                      <zone-style>
+                        <format attr='border-color' value='#000000' />
+                        <format attr='border-style' value='none' />
+                        <format attr='border-width' value='0' />
+                        <format attr='margin' value='4' />
+                        <format attr='background-color' value='#ffffff' />
+                      </zone-style>
+                    </zone>
+                  </zone>
+                </zone>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='1450' minheight='1450' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='37' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98250' id='36' param='vert' type-v2='layout-flow' w='99050' x='475' y='875'>
+                <zone h='4595' id='15' type-v2='title' w='99050' x='475' y='875'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='7221' id='16' mode='checkdropdown' name='Cashflow_Dynamics' param='[federated.02n98lz02y7uvd14kei091mw9xts].[yr:DateTime:ok]' type-v2='filter' values='database' w='9976' x='11520' y='5470'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='7221' id='18' mode='checkdropdown' name='Cashflow_Dynamics' param='[federated.02n98lz02y7uvd14kei091mw9xts].[mn:DateTime:ok]' type-v2='filter' values='database' w='9976' x='21496' y='5470'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='7221' id='22' mode='checkdropdown' name='Cashflow_Dynamics' param='[federated.02n98lz02y7uvd14kei091mw9xts].[none:Method:nk]' type-v2='filter' values='database' w='9976' x='31472' y='5470'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='7221' id='24' mode='checkdropdown' name='Cashflow_Dynamics' param='[federated.02n98lz02y7uvd14kei091mw9xts].[none:status:nk]' type-v2='filter' values='database' w='9976' x='41448' y='5470'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='7221' id='21' mode='checkdropdown' name='Cashflow_Dynamics' param='[federated.02n98lz02y7uvd14kei091mw9xts].[none:From:nk]' type-v2='filter' values='database' w='9976' x='51424' y='5470'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='7221' id='23' mode='checkdropdown' name='Cashflow_Dynamics' param='[federated.02n98lz02y7uvd14kei091mw9xts].[none:To:nk]' type-v2='filter' values='database' w='9976' x='61400' y='5470'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='7221' id='25' mode='checkdropdown' name='Cashflow_Dynamics' param='[federated.02n98lz02y7uvd14kei091mw9xts].[none:Blockno:ok]' type-v2='filter' values='database' w='9976' x='71376' y='5470'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='86434' id='10' is-fixed='true' name='Cashflow_Dynamics' w='60026' x='475' y='12691'>
+                  <layout-cache cell-count-w='23' minheight='264' non-cell-size-w='141' type-h='scalable' type-w='cell' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                    <format attr='background-color' value='#ffffff' />
+                  </zone-style>
+                </zone>
+                <zone h='7221' id='11' name='Cashflow_Dynamics' pane-specification-id='2' param='[federated.02n98lz02y7uvd14kei091mw9xts].[:Measure Names]' type-v2='color' w='11045' x='475' y='5470'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='42450' id='26' is-fixed='true' name='Methods' w='39024' x='60501' y='12691'>
+                  <layout-cache cell-count-w='1' type-h='cell' type-w='cell' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                    <format attr='background-color' value='#ffffff' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='43984' id='29' is-fixed='true' name='Transactions' w='39024' x='60501' y='55141'>
+                  <layout-cache cell-count-w='1' fixed-size-h='158324' non-cell-size-w='602' type-h='fixed' type-w='cell' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                    <format attr='background-color' value='#ffffff' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{907D7E9A-2C41-4D89-BC8C-C81C5F428521}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='30'>
+    <window class='worksheet' name='Cashflow_Dynamics_methods'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='300'>
+            <card mode='checkdropdown' param='[federated.02n98lz02y7uvd14kei091mw9xts].[none:Method:nk]' type='filter' />
+            <card pane-specification-id='2' param='[federated.02n98lz02y7uvd14kei091mw9xts].[none:Calculation_1615384937555537923:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.02n98lz02y7uvd14kei091mw9xts].[mn:DateTime:ok]</field>
+            <field>[federated.02n98lz02y7uvd14kei091mw9xts].[none:Calculation_1615384937555537923:nk]</field>
+            <field>[federated.02n98lz02y7uvd14kei091mw9xts].[none:Method:nk]</field>
+            <field>[federated.02n98lz02y7uvd14kei091mw9xts].[none:status:nk]</field>
+            <field>[federated.02n98lz02y7uvd14kei091mw9xts].[yr:DateTime:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{22F7E973-1D0E-46B1-87CD-929A85BD3035}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Address Analytics'>
+      <viewpoints>
+        <viewpoint name='Cashflow_Dynamics'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Methods'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Transactions'>
+          <zoom type='fit-width' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{D96B822C-7C03-4171-BBA3-29C1FB5CE96E}' />
+    </window>
+    <window class='worksheet' hidden='true' name='Cashflow_Dynamics'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='2' param='[federated.02n98lz02y7uvd14kei091mw9xts].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.02n98lz02y7uvd14kei091mw9xts].[mn:DateTime:ok]</field>
+            <field>[federated.02n98lz02y7uvd14kei091mw9xts].[none:Blockno:ok]</field>
+            <field>[federated.02n98lz02y7uvd14kei091mw9xts].[none:From:nk]</field>
+            <field>[federated.02n98lz02y7uvd14kei091mw9xts].[none:Method:nk]</field>
+            <field>[federated.02n98lz02y7uvd14kei091mw9xts].[none:To:nk]</field>
+            <field>[federated.02n98lz02y7uvd14kei091mw9xts].[none:status:nk]</field>
+            <field>[federated.02n98lz02y7uvd14kei091mw9xts].[yr:DateTime:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{9124FE7E-2381-4A01-BB25-5311856608B2}' />
+    </window>
+    <window class='worksheet' hidden='true' name='Methods'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.02n98lz02y7uvd14kei091mw9xts].[sum:Calculation_1615384937554288641:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.02n98lz02y7uvd14kei091mw9xts].[none:Method:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{D426439B-5329-4A21-B672-1622C1145CDE}' />
+    </window>
+    <window class='worksheet' hidden='true' name='Transactions'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.02n98lz02y7uvd14kei091mw9xts].[none:Calculation_2735373869926633472:nk]</field>
+            <field>[federated.02n98lz02y7uvd14kei091mw9xts].[none:DateTime:ok]</field>
+            <field>[federated.02n98lz02y7uvd14kei091mw9xts].[none:From:nk]</field>
+            <field>[federated.02n98lz02y7uvd14kei091mw9xts].[none:Method:nk]</field>
+            <field>[federated.02n98lz02y7uvd14kei091mw9xts].[none:To:nk]</field>
+            <field>[federated.02n98lz02y7uvd14kei091mw9xts].[none:Txhash:nk]</field>
+            <field>[federated.02n98lz02y7uvd14kei091mw9xts].[yr:DateTime:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{45821C61-B648-41E4-9892-C71701A15D28}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Address Analytics' width='192'>
+      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
+      RK5CYII=
+    </thumbnail>
+    <thumbnail height='192' name='Cashflow_Dynamics_methods' width='192'>
+      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
+      m5GOAAAAAElFTkSuQmCC
+    </thumbnail>
+  </thumbnails>
+</workbook>
